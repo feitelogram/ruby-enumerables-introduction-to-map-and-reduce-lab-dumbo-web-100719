@@ -9,7 +9,6 @@ def average (array)
   i= 0
   array.each do
     total += array[i]
-    i+=1
   end
  average = total / array.length
  average
