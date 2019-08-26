@@ -7,7 +7,7 @@ def average (array)
   total = 0 
   average = 0 
   i= 0
-  array.length.times do
+  array.each do
     total += array[i]
     i+=1
   end
