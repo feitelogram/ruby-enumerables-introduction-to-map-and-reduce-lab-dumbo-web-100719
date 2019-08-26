@@ -10,6 +10,5 @@ def average (array)
     total += number
   end
  mean = total / array.length
- binding.pry
  mean
 end
